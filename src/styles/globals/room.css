@@ -1,0 +1,113 @@
+.bg-button-2 {
+    background: linear-gradient(180deg, #ffd6a6 0%, #f29527 100%);
+    position: relative;
+    overflow: hidden;
+    animation: blink 1.5s infinite;
+  }
+  
+  @keyframes blink {
+    0%,
+    100% {
+      box-shadow:
+        0 0 10px rgb(241 177 1 / 94.5%),
+        0 0 20px rgb(236 172 33 / 80%),
+        0 0 30px rgb(247 244 244 / 80%);
+      transform: scale(1.09);
+    }
+  
+    50% {
+      box-shadow: none;
+      transform: scale(1);
+    }
+  }
+
+  .text-gardient2 {
+    background:
+      var(
+  
+        linear-gradient(
+          100deg,
+          #fff979 9.84%,
+          #ffbf3f 41.7%,
+          #ffd859 42.61%,
+          #ffd859 46.25%,
+          #ffd859 52.62%,
+          #bf8000 79.92%,
+          #ffcc4d 89.93%,
+          #ffcc4d 100.86%
+        )
+      );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+
+  .drop-menu {
+    left: -30px;
+    top: 30px;
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 5px 10px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .drop-menu li {
+    padding: 0 30px;
+  }
+  
+  li:hover ul.drop-menu {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .animated-button {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    z-index: 10;
+  
+    /* border-radius: 10px; */
+    font-weight: bold;
+  }
+  
+  .animated-button::before {
+    content: "";
+    background-image:
+      conic-gradient(
+        #F6083B 20deg,
+        transparent 120deg
+      );
+    width: 200%;
+    height: 200%;
+    position: absolute;
+    animation: rotate 7s linear infinite;
+  }
+  
+  .animated-button::after {
+    content: "";
+    width: 99%;
+    height: 99%;
+    background: #2A343A;
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(-360deg); }
+  }
+  
+
+  

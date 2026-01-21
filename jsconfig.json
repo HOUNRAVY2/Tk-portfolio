@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "baseUrl": ".",
+    "paths": {
+      "@public/*": ["public/*"],
+      "@*": ["src/*"],
+      "@components/*": ["src/components/*"],
+      "@pages/*": ["src/pages/*"],
+      "@constants/*": ["src/constants/*"],
+      "@data/*": ["src/data/*"],
+      "@common/*": ["src/components/assets/*"],
+      "@layout/*": ["src/layout/*"],
+      "@locales/*": ["src/locales/*"],
+      "@fonts/*": ["src/fonts/*"],
+      "@model/*": ["src/model/*"],
+      "@service/*": ["src/service/*"],
+      "@styles/*": ["src/styles/*"],
+      "@recoils/*": ["src/recoils/*"],
+      "@utilities/*": ["src/utilities/*"],
+      "@libs/*": ["src/libs/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}

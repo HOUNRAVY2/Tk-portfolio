@@ -1,0 +1,57 @@
+/* main */
+html,
+body {
+  background: #24292C;
+  padding: 0;
+  margin: 0;
+  font-family: 'Noto Sans SC', sans-serif;
+  scroll-behavior: smooth;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.text-gardient {
+  background: linear-gradient(180deg, #cbcb87 0%, #cc7c02 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar-shadow {
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 25%);
+}
+
+.menu-in {
+  right: 0;
+  animation-name: menuin;
+  animation-duration: 0.5s;
+}
+
+.menu-out {
+  right: -2000px;
+  animation-name: menuout;
+  animation-duration: 0.5s;
+}
+
+@keyframes menuin {
+  from {
+    right: -2000px;
+    display: none;
+  }
+
+  to {
+    display: block;
+    right: 0;
+  }
+}
+
+@keyframes menuout {
+  from {
+    display: block;
+    right: 0;
+  }
+
+  to {
+    right: -2000px;
+    display: none;
+  }
+}

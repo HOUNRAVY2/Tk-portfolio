@@ -1,0 +1,51 @@
+export const navbarBtn = [
+  {
+    title: '主頁',
+    linkTo: '/',
+    show: true,
+    sitemap: true,
+    children: [],
+  },
+  {
+    title: '足球分析',
+    linkTo: '/football-analysis',
+    show: true,
+    sitemap: true,
+    children: [],
+  },
+  {
+    title: 'NBA分析',
+    linkTo: '/NBA分析',
+    show: true,
+    sitemap: true,
+    children: [],
+  },
+  {
+    title: '賽馬分析',
+    linkTo: '/賽馬分析',
+    show: true,
+    sitemap: true,
+    children: [],
+  },
+  {
+    title: '娛樂 城資訊',
+    linkTo: '/online-casino',
+    show: true,
+    sitemap: true,
+    children: [],
+  },
+  {
+    title: '遊戲介紹',
+    linkTo: '/games',
+    show: true,
+    sitemap: true,
+    children: [],
+  },
+  {
+    title: 'BLOG',
+    linkTo: '/blogs',
+    show: true,
+    sitemap: true,
+    children: [],
+  },
+];
