@@ -393,7 +393,7 @@ export const skillData = [
     id: '1',
     title: 'Digital Marketing Strategy',
     images: {
-      url: '/assets/home/skill/html.svg',
+      url: '/assets/home/new-skill/img-01.webp',
       atl: 'html',
     },
   },
@@ -401,7 +401,7 @@ export const skillData = [
     id: '2',
     title: 'Facebook Ads & Paid Media',
     images: {
-      url: '/assets/home/skill/css.svg',
+      url: '/assets/home/new-skill/img-02.webp',
       atl: 'campaign',
     },
   },
@@ -409,7 +409,7 @@ export const skillData = [
     id: '3',
     title: 'Campaign Planning',
     images: {
-      url: '/assets/home/skill/bootstrap.svg',
+      url: '/assets/home/new-skill/img-03.webp',
       atl: 'BOOSTRAP',
     },
   },
@@ -417,7 +417,7 @@ export const skillData = [
     id: '4',
     title: 'SEO Marketing',
     images: {
-      url: '/assets/home/skill/tialwind.png',
+      url: '/assets/home/new-skill/img-04.webp',
       atl: 'git',
     },
   },
@@ -425,7 +425,7 @@ export const skillData = [
     id: '5',
     title: 'E-Commerce Marketing',
     images: {
-      url: '/assets/home/skill/js.svg',
+      url: '/assets/home/new-skill/img-05.webp',
       atl: 'JAVASCRIPT',
     },
   },
@@ -433,7 +433,7 @@ export const skillData = [
     id: '6',
     title: 'App & Web Design',
     images: {
-      url: '/assets/home/skill/react.svg',
+      url: '/assets/home/new-skill/img-06.webp',
       atl: 'react',
     },
   },

@@ -48,7 +48,7 @@ export default function Navbar() {
     <nav className='relative'>
       <div
         className={`fixed w-full top-0 z-30 transition-all ${
-          scrollPosition > 50 ? 'bg-[#2A343A]' : 'bg-transparent'
+          scrollPosition > 50 ? 'bg-EA' : 'bg-transparent'
         }`}
       >
         <div className='container-full py-[20px]'>
@@ -59,7 +59,7 @@ export default function Navbar() {
                   <Link href={`${load.linkTo}`} onClick={(e) => clickSmooth(e, load.linkTo)}>
                     <p
                       className={`text-14px hover:text-red-600 ${
-                        activeLink === load.linkTo ? 'text-red-600' : 'text-white'
+                        activeLink === load.linkTo ? 'text-red-600' : 'text-heading'
                       }`}
                     >
                       {load.title}
@@ -88,7 +88,7 @@ export default function Navbar() {
             showMenu === true ? (showMenu ? 'menu-in' : 'menu-out') : 'hidden'
           }`}
         >
-          <div className=' text-white'>
+          <div className=' text-EA'>
             <div className=' bg-gradient py-2 flex justify-end px-[15px]'>
               <MdOutlineClear color='#fff' onClick={() => setShowMenu(false)} size={30} />
             </div>

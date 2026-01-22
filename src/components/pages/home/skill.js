@@ -10,13 +10,22 @@ export default function Skill() {
           <h5 className='text-24px  underline underline-offset-8 decoration-coca '> Skills</h5>
         </div>
 
-        <div className=' grid grid-cols-3 gap-[32px]'>
+        <div className=' grid md:grid-cols-3 grid-cols-2 md:gap-[12px] gap-[8px]'>
           {skillData.map((load) => (
             <div
               key={load.id}
-              className='bg-EA rounded-lg space-y-[10px] flex flex-col justify-center md:h-[200px] h-[110px]  items-center'
+              className='bg-EA rounded-lg space-y-[10px] flex flex-col justify-center py-[30px]  items-center'
             >
-              <Image src={load.images.url} alt={load.images.atl} width={80} height={80} />
+              <div className=' relative w-[140px] h-[120px]'>
+                <Image
+                  src={load.images.url}
+                  alt={load.images.atl}
+                  width={200}
+                  height={180}
+                  draggable={false}
+                  className=' object-contain'
+                />
+              </div>
               <p className='md:text-20px text-18px'>{load.title}</p>
             </div>
           ))}

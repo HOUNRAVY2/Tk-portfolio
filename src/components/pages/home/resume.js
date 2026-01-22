@@ -10,7 +10,7 @@ export default function Resume() {
         <div className='flex justify-center'>
           <h5 className='text-24px  underline underline-offset-8 decoration-coca '> My Resume</h5>
         </div>
-        <div className=' grid md:grid-cols-2 grid-cols-1 gap-[30px]'>
+        <div className=' grid lg:grid-cols-2 grid-cols-1 gap-[30px]'>
           <div className=' space-y-[40px]'>
             <div>
               <p className=' text-20px font-bold'>Job Experience</p>
@@ -21,19 +21,19 @@ export default function Resume() {
               initial='hidden'
               viewport={{ once: true }}
               whileInView='show'
-              className=' grid grid-cols-1 gap-y-[15px]'
+              className=' grid grid-cols-1 gap-y-[12px]'
             >
               {jobExperience.map((job) => (
                 <motion.div
                   variants={childVariants}
                   key={job.id}
-                  className='space-y-[20px] bg-EA px-[25px] py-[15px] rounded-md'
+                  className='space-y-[20px] bg-EA px-[25px] py-[15px] 2xl:h-[200px] xl:h-[230px] lg:h-[240px] rounded-md'
                 >
                   <div className=' space-y-[5px]'>
                     <p className='text-20px'>{job.title}</p>
                     <span className='text-14px text-coca'>{job.at}</span>
                   </div>
-                  <p className='text-16px text-justify'>{job.dsp}</p>
+                  <p className='text-16px text-justify text-paragraph'>{job.dsp}</p>
                 </motion.div>
               ))}
             </motion.div>
@@ -48,13 +48,13 @@ export default function Resume() {
               initial='hidden'
               viewport={{ once: true }}
               whileInView='show'
-              className=' grid grid-cols-1 gap-y-[15px]'
+              className=' grid grid-cols-1 gap-y-[12px]'
             >
               {educationQuality.map((job) => (
                 <motion.div
                   variants={childVariants}
                   key={job.id}
-                  className=' space-y-[20px] bg-EA px-[25px] py-[15px] rounded-md'
+                  className=' space-y-[20px] bg-EA px-[25px] py-[15px] 2xl:h-[200px] xl:h-[230px] lg:h-[240px] rounded-md'
                 >
                   <div className=' space-y-[5px]'>
                     <p className='text-20px'>{job.title}</p>
@@ -63,7 +63,7 @@ export default function Resume() {
                   <ul className=' list-disc'>
                     {job.dsp &&
                       job.dsp.map((load) => (
-                        <li key={load} className='text-16px text-justify'>
+                        <li key={load} className='text-16px text-justify text-paragraph'>
                           {load}
                         </li>
                       ))}

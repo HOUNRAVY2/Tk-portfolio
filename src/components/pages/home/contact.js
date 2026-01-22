@@ -3,7 +3,6 @@ import { contactData } from '@constants/mocks/home';
 import { BsFillSendFill } from 'react-icons/bs';
 import Icon from '@components/common/Display/Icon';
 import Link from 'next/link';
-import { getBotToken, getChatID } from '@utilities/dev';
 import Image from 'next/image';
 import { MdOutlineCancel } from 'react-icons/md';
 import { motion } from 'framer-motion';
@@ -36,38 +35,17 @@ export default function Contact() {
       input.message !== ''
     ) {
       setLoading(true);
-      try {
-        const botToken = getBotToken();
-        const chatId = getChatID();
-        const messageS = `Eric Ravy's website visitor request\nname: ${input.name}\nphone: ${input.phone}\nemail: ${input.email}\nsubject: ${input.subject}\nmessages: ${input.message}`;
-
-        const response = await fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            chat_id: chatId,
-            text: messageS,
-            parse_mode: 'HTML', // Change to 'Markdown' if needed
-          }),
+      setTimeout(() => {
+        setSubmit(true);
+        setInput({
+          name: '',
+          phone: '',
+          email: '',
+          subject: '',
+          message: '',
         });
-
-        if (response.ok) {
-          setSubmit(true);
-          setInput({
-            name: '',
-            phone: '',
-            email: '',
-            subject: '',
-            message: '',
-          });
-          setSubmit(true);
-          setLoading(false);
-        }
-      } catch (error) {
-        console.error(`error ${error}`);
-      }
+        setLoading(false);
+      }, 2000);
     }
   };
 
@@ -139,7 +117,7 @@ export default function Contact() {
                 <Link href={load.linkTo} key={load.id}>
                   <motion.div
                     variants={childVariants}
-                    className='flex text-coca hover:text-white hover:scale-[1.05] transition-all flex-col justify-center rounded-md py-[20px] px-[30px] items-center gap-y-[10px] bg-[#CECECE]'
+                    className='flex text-coca hover:text-heading hover:scale-[1.05] transition-all flex-col justify-center rounded-md py-[20px] px-[30px] items-center gap-y-[10px] bg-EA'
                   >
                     <Icon name={load.icon} size={24} />
                     <p className='text-16px text-heading'>{load.name}</p>
@@ -170,7 +148,13 @@ export default function Contact() {
                 type='text'
                 id='phone'
                 value={input.phone}
-                onChange={(e) => onHandleChange(e)}
+                onChange={(e) => {
+                  const onlyNumber = e.target.value.replace(/[^0-9]/g, '');
+                  setInput((prev) => ({
+                    ...prev,
+                    phone: onlyNumber,
+                  }));
+                }}
                 placeholder='Your phone'
                 className='w-full px-3 py-2 border-none text-14px bg-[#CECECE] rounded focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500'
               />

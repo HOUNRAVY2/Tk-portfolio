@@ -37,7 +37,7 @@ export default function Footer() {
         </div>
         <div className=' text-center border-t-[1px] border-white/70 py-[26px]'>
           <p className='text-14px text-white/70'>
-            @2024 <span className=' text-coca text-14px font-bold'>HOUN RAVY</span> All Rights
+            @2026 <span className=' text-coca text-14px font-bold'>Theany Kouch</span> All Rights
             Reserved.
           </p>
         </div>

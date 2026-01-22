@@ -16,7 +16,7 @@ export default function Ido() {
           initial='hidden'
           viewport={{ once: true }}
           whileInView='show'
-          className=' grid md:grid-cols-3 grid-cols-1 gap-[10px]'
+          className=' grid md:grid-cols-3 grid-cols-2 md:gap-[12px] gap-[8px]'
         >
           {doData.map((load) => (
             <motion.div

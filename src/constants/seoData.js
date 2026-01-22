@@ -12,14 +12,15 @@ export const faqDefault = [
 export const seoDefualt = {
   linkTo: '/',
   seo: {
-    title: 'Eric Ravy',
+    title: 'Digital Marketing Manager Portfolio | Theany Kouch ',
     description:
-      'Discover my portfolio showcasing expertise in Software Developer. Explore my projects, skills, and professional achievements. Lets collaborate!',
-    keywords: 'portfolio, Software Developer, projects, skills, achievements',
+      'Results-driven Digital Marketing Manager with 5+ years experiences in paid ads, campaign strategy, e-commerce, and app marketing with cross-functional leadership experience. ',
+    keywords:
+      'Digital Marketing Manager Digital Marketing Portfolio Digital Marketing Manager Portfolio Social Media Manager Portfolio Theany Kouch Kouch Theany E-Commerce marketing',
     images: [
       {
-        url: '/assets/home/frame-01.png', // Replace with the actual URL of your image
-        alt: 'Eric Ravy Portfolio Image',
+        url: '/assets/home/tk-frame.png', // Replace with the actual URL of your image
+        alt: 'TK Portfolio Image',
       },
     ],
     faq: faqDefault,
