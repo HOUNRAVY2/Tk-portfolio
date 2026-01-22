@@ -22,6 +22,9 @@ module.exports = {
         gold_2: '#ecc639',
         coca: '#F6083B',
         cool: '#BFBFBF',
+        heading: '#2A343A',
+        paragraph: '#555C61',
+        EA: '#EAEAEA',
       },
       height: {
         inherit: 'inherit',

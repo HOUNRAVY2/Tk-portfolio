@@ -9,10 +9,7 @@ export default function Ido() {
     <main>
       <div className='container-full py-[30px] md:py-[80px] border-b-[1px] border-[#555C61] space-y-[40px]'>
         <div className='flex justify-center'>
-          <h5 className='text-24px text-white underline underline-offset-8 decoration-coca '>
-            {' '}
-            What I Do
-          </h5>
+          <h5 className='text-24px  underline underline-offset-8 decoration-coca '> What I Do</h5>
         </div>
         <motion.div
           variants={containerVariants}
@@ -25,7 +22,7 @@ export default function Ido() {
             <motion.div
               variants={childVariants}
               key={load.id}
-              className=' p-[20px] animated-button'
+              className=' p-[20px] bg-EA rounded-lg'
             >
               <div className='space-y-[10px] relative z-20'>
                 <Icon name={load.icon} className=' md:text-[75px] text-[55px] text-coca' />

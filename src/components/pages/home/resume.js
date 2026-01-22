@@ -8,10 +8,7 @@ export default function Resume() {
     <main id='resume'>
       <div className='container-full  py-[30px] md:py-[80px] border-b-[1px] border-[#555C61] space-y-[40px]'>
         <div className='flex justify-center'>
-          <h5 className='text-24px text-white underline underline-offset-8 decoration-coca '>
-            {' '}
-            My Resume
-          </h5>
+          <h5 className='text-24px  underline underline-offset-8 decoration-coca '> My Resume</h5>
         </div>
         <div className=' grid md:grid-cols-2 grid-cols-1 gap-[30px]'>
           <div className=' space-y-[40px]'>
@@ -30,13 +27,13 @@ export default function Resume() {
                 <motion.div
                   variants={childVariants}
                   key={job.id}
-                  className='space-y-[20px] bg-[#2A343A] px-[25px] py-[15px] rounded-md'
+                  className='space-y-[20px] bg-EA px-[25px] py-[15px] rounded-md'
                 >
                   <div className=' space-y-[5px]'>
                     <p className='text-20px'>{job.title}</p>
                     <span className='text-14px text-coca'>{job.at}</span>
                   </div>
-                  <p className='text-16px line-clamp-2'>{job.dsp}</p>
+                  <p className='text-16px text-justify'>{job.dsp}</p>
                 </motion.div>
               ))}
             </motion.div>
@@ -57,16 +54,16 @@ export default function Resume() {
                 <motion.div
                   variants={childVariants}
                   key={job.id}
-                  className=' space-y-[20px] bg-[#2A343A] px-[25px] py-[15px] rounded-md'
+                  className=' space-y-[20px] bg-EA px-[25px] py-[15px] rounded-md'
                 >
                   <div className=' space-y-[5px]'>
                     <p className='text-20px'>{job.title}</p>
                     <span className='text-14px text-coca'>{job.at}</span>
                   </div>
-                  <ul>
+                  <ul className=' list-disc'>
                     {job.dsp &&
                       job.dsp.map((load) => (
-                        <li key={load} className='text-16px line-clamp-2'>
+                        <li key={load} className='text-16px text-justify'>
                           {load}
                         </li>
                       ))}

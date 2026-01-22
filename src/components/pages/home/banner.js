@@ -7,16 +7,16 @@ import Icon from '@components/common/Display/Icon';
 export default function Banner() {
   return (
     <main className='container-full pt-[80px] pb-[30px] md:pb-[80px] border-b-[1px] border-[#555C61]'>
-      <div className=' items-center text-cool'>
+      <div className=' items-center '>
         <div className=' grid md:grid-cols-2 grid-cols-1 gap-y-[30px]'>
           <div className=' flex items-center '>
             <div className='md:space-y-[7px]'>
               <p className=' text-16px'>Hello, I am</p>
-              <h5 className='text-28px font-bold text-white uppercase'>
-                theany <span className=' text-coca text-45px font-bold'>kouch</span>
+              <h5 className='text-45px font-extrabold text-heading uppercase'>
+                theany <span className=' text-coca text-45px font-extrabold'>kouch</span>
               </h5>
-              <p className='text-20px tracking-[4px]'>D. Marketing Manager & Project Manager</p>
-              <p className='text-16px md:pr-[50px]'>
+              <p className='text-20px '>D. Marketing Manager & Project Manager</p>
+              <p className='text-16px md:pr-[50px] text-justify text-paragraph'>
                 Digital Marketing Manager with 5+ years of experience in e-commerce and tech,
                 skilled in Facebook Ads, TikTok, Instagram, content creation, SEO, and integrated
                 campaigns. Experienced in end-to-end website projects, livestream/KOL promotions,
@@ -30,7 +30,7 @@ export default function Banner() {
                 <div className='flex  items-center justify-center md:justify-start gap-x-[10px] text-white md:text-[24px] text-[20px]'>
                   {findMe.map((load) => (
                     <Link href={load.linkTo} key={load.id}>
-                      <div className='bg-[#2A343A] p-[10px] rounded-md text-coca hover:text-white hover:scale-[1.16] transition-all'>
+                      <div className='bg-[#EAEAEA] p-[10px] rounded-md text-coca hover:text-heading hover:scale-[1.16] transition-all'>
                         <Icon name={load.icon} />
                       </div>
                     </Link>

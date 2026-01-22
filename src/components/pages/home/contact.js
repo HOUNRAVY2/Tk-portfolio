@@ -115,7 +115,7 @@ export default function Contact() {
       )}
       <div className='container-full  py-[30px] md:py-[80px] border-b-[1px] border-[#555C61] space-y-[40px]'>
         <div className='flex justify-center'>
-          <h5 className='text-24px text-white underline underline-offset-8 decoration-coca '>
+          <h5 className='text-24px underline underline-offset-8 decoration-coca '>
             {' '}
             Contact With Me
           </h5>
@@ -139,10 +139,10 @@ export default function Contact() {
                 <Link href={load.linkTo} key={load.id}>
                   <motion.div
                     variants={childVariants}
-                    className='flex text-coca hover:text-white hover:scale-[1.05] transition-all flex-col justify-center rounded-md py-[20px] px-[30px] items-center gap-y-[10px] bg-[#2A343A]'
+                    className='flex text-coca hover:text-white hover:scale-[1.05] transition-all flex-col justify-center rounded-md py-[20px] px-[30px] items-center gap-y-[10px] bg-[#CECECE]'
                   >
                     <Icon name={load.icon} size={24} />
-                    <p className='text-16px text-cool'>{load.name}</p>
+                    <p className='text-16px text-heading'>{load.name}</p>
                   </motion.div>
                 </Link>
               ))}
@@ -153,7 +153,7 @@ export default function Contact() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.3, type: 'spring' }}
-            className=' col-span-3 bg-[#2A343A] p-[30px] rounded-md'
+            className=' col-span-3 bg-EA p-[30px] rounded-md'
           >
             <div className='mb-4 flex gap-[20px]'>
               <input
@@ -163,7 +163,7 @@ export default function Contact() {
                 value={input.name}
                 onChange={(e) => onHandleChange(e)}
                 placeholder='Your name'
-                className='w-full px-3 py-2 border-none text-14px bg-[#24292C] rounded focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500'
+                className='w-full px-3 py-2 border-none text-14px bg-[#CECECE] rounded focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500'
               />
               <input
                 required
@@ -172,7 +172,7 @@ export default function Contact() {
                 value={input.phone}
                 onChange={(e) => onHandleChange(e)}
                 placeholder='Your phone'
-                className='w-full px-3 py-2 border-none text-14px bg-[#24292C] rounded focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500'
+                className='w-full px-3 py-2 border-none text-14px bg-[#CECECE] rounded focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500'
               />
             </div>
             <div className='mb-4 flex gap-[20px]'>
@@ -183,7 +183,7 @@ export default function Contact() {
                 value={input.email}
                 onChange={(e) => onHandleChange(e)}
                 placeholder='Your Email'
-                className='w-full px-3 py-2 border-none text-14px bg-[#24292C] rounded focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500'
+                className='w-full px-3 py-2 border-none text-14px bg-[#CECECE] rounded focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500'
               />
               <input
                 required
@@ -192,7 +192,7 @@ export default function Contact() {
                 value={input.subject}
                 onChange={(e) => onHandleChange(e)}
                 placeholder='Your subject'
-                className='w-full px-3 py-2 border-none text-14px bg-[#24292C] rounded focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500'
+                className='w-full px-3 py-2 border-none text-14px bg-[#CECECE] rounded focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500'
               />
             </div>
             <div className='mb-4'>
@@ -203,23 +203,23 @@ export default function Contact() {
                 onChange={(e) => onHandleChange(e)}
                 rows='4'
                 placeholder='Enter your message'
-                className='w-full px-3 py-2 border-none text-14px bg-[#24292C] rounded focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500'
+                className='w-full px-3 py-2 border-none text-14px bg-[#CECECE] rounded focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500'
               />
             </div>
-            <div className='flex justify-center items-center '>
+            <div className='flex justify-center items-center  '>
               {!isLoading ? (
                 <button
                   type='button'
                   onClick={() => sendMessage()}
-                  className=' px-[25px] py-[10px] bg-[#24292C] rounded-md flex justify-center items-center text-coca gap-x-[8px] transition-all hover:text-white hover:bg-coca'
+                  className=' px-[25px] py-[10px] bg-[#CECECE] rounded-md flex justify-center items-center text-coca gap-x-[8px] transition-all hover:text-white hover:bg-coca'
                 >
-                  <span className='text-14px text-cool'>Send Message </span>{' '}
+                  <span className='text-14px text-heading'>Send Message </span>{' '}
                   <BsFillSendFill size={16} />
                 </button>
               ) : (
                 <button
                   type='button'
-                  className='px-[25px] text-14px py-[10px] bg-[#24292C] rounded-md flex justify-center  text-coca gap-x-[8px] transition-all hover:text-white hover:bg-coca items-center cursor-not-allowed'
+                  className='px-[25px] text-14px py-[10px] bg-[#CECECE] rounded-md flex justify-center  text-coca gap-x-[8px] transition-all hover:text-white hover:bg-coca items-center cursor-not-allowed'
                   disabled
                 >
                   {' '}
