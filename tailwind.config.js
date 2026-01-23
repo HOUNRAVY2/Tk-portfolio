@@ -11,9 +11,9 @@ module.exports = {
     extend: {
       backgroundImage: {
         footer: 'url(/assets/home/footer.png)',
-        banner: 'url(/assets/home/sec-1.png)',
-        sec2: 'url(/assets/home/sec-2.png)',
-        sec3: 'url(/assets/home/sec-3.png)',
+        banner: 'url(/assets/home/bg-01.webp)',
+        sec2: 'url(/assets/home/bg-02.webp)',
+        sec3: 'url(/assets/home/bg-03.webp)',
       },
       colors: {
         navbar: '#292929',

@@ -37,6 +37,33 @@ export default function Resume() {
                 </motion.div>
               ))}
             </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              transition={{ duration: 0.2, delay: 1, type: 'just' }}
+              viewport={{ once: true }}
+              whileInView={{ opacity: 1, y: 0 }}
+              className=' space-y-[30px]'
+            >
+              <div>
+                <p className=' text-20px font-bold'>Professional Courses & Training</p>
+              </div>
+              <div>
+                <div className='space-y-[20px] bg-EA px-[25px] py-[15px] 2xl:h-[200px] xl:h-[230px] lg:h-[240px] rounded-md'>
+                  <div className=' space-y-[5px]'>
+                    <p className='text-20px'>Digital Marketing</p>
+                    <span className='text-14px text-coca'>(2017-2021)</span>
+                  </div>
+                  <ul className=' list-disc'>
+                    <li className='text-16px text-justify text-paragraph'>
+                      Attended 10+ professional courses in digital marketing, leadership, strategic
+                      management (Executive & MBA level), and fundraising for private equity and
+                      investors. Programs supported by AIESEC, USAID, UNDP, AUSAID, GIZ,
+                      SwissContact, and Apollo Training.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </motion.div>
           </div>
           <div className=' space-y-[40px]'>
             <div>
@@ -70,6 +97,35 @@ export default function Resume() {
                   </ul>
                 </motion.div>
               ))}
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              transition={{ duration: 0.2, delay: 1, type: 'just' }}
+              viewport={{ once: true }}
+              whileInView={{ opacity: 1, y: 0 }}
+              className=' space-y-[30px]'
+            >
+              <div>
+                <p className=' text-20px font-bold'>Award</p>
+              </div>
+              <div>
+                <div className='space-y-[20px] bg-EA px-[25px] py-[15px] 2xl:h-[200px] xl:h-[230px] lg:h-[240px] rounded-md'>
+                  <div className=' space-y-[5px]'>
+                    <p className='text-20px'>Outstanding Woman Award – Private Sector</p>
+                    <span className='text-14px text-coca'>((2016))</span>
+                  </div>
+                  <ul className=' list-disc'>
+                    <li className='text-16px text-justify text-paragraph'>
+                      Recognized for active participation in social work, charity activities, and
+                      tourism promotion
+                    </li>
+                    <li className='text-16px text-justify text-paragraph'>
+                      Award presented by the Ministry of Women’s Affairs and the Ministry of Tourism
+                      of Cambodia
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </motion.div>
           </div>
         </div>

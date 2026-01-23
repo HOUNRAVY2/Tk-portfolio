@@ -43,7 +43,7 @@ export default function Banner() {
           <div className=' flex justify-center lg:order-last order-first'>
             <div className='aspect-[6.3/6.8]  relative md:w-[320px] w-[300px] lg:w-[500px] '>
               <Image
-                src='/assets/home/tk.png'
+                src='/assets/home/me.webp'
                 alt='person'
                 fill
                 draggable='false'

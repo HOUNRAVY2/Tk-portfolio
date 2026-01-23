@@ -10,6 +10,7 @@ import {
 } from 'react-icons/fa';
 import { FaSquareXTwitter, FaCode, FaLinkedinIn } from 'react-icons/fa6';
 import { AiFillInstagram } from 'react-icons/ai';
+
 import {
   MdComputer,
   MdOutlineCampaign,
@@ -20,7 +21,7 @@ import { TbSettingsCode } from 'react-icons/tb';
 import { CiServer } from 'react-icons/ci';
 import { RiSeoLine } from 'react-icons/ri';
 import { IoMdMail } from 'react-icons/io';
-import { IoCallOutline } from 'react-icons/io5';
+import { IoCallOutline, IoLogoTiktok } from 'react-icons/io5';
 import { HiTrendingUp } from 'react-icons/hi';
 import { BiTargetLock } from 'react-icons/bi';
 
@@ -81,6 +82,8 @@ export default function Icon({ name, size, width, height, color, className }) {
       return <MdOutlineShoppingCartCheckout {...props} />;
     case 'group':
       return <MdOutlineGroups {...props} />;
+    case 'tiktok':
+      return <IoLogoTiktok {...props} />;
     default:
       return null;
   }
