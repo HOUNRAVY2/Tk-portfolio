@@ -37,6 +37,15 @@ export const websiteData = [
       atl: 'VTECH',
     },
   },
+  {
+    id: '3',
+    name: 'VchainPay',
+    url: 'http://vchain-pay.my-captain.ss.hd1.fun',
+    images: {
+      url: '/assets/home/web/v-chan.png',
+      atl: 'VTECH',
+    },
+  },
 ];
 export const findMe = [
   {
@@ -210,6 +219,57 @@ export const skillData = [
     images: {
       url: '/assets/home/new-skill/img-06.webp',
       atl: 'react',
+    },
+  },
+];
+
+export const toolsData = [
+  {
+    id: '1',
+    title: 'Meta Ads Manager',
+    images: {
+      url: '/assets/home/tools/img-01.png',
+      atl: 'Meta Ads Manager',
+    },
+  },
+  {
+    id: '2',
+    title: 'Xmind',
+    images: {
+      url: '/assets/home/tools/img-02.png',
+      atl: 'Xmind',
+    },
+  },
+  {
+    id: '3',
+    title: 'Google Search Console',
+    images: {
+      url: '/assets/home/tools/img-03.png',
+      atl: 'Google Search Console',
+    },
+  },
+  {
+    id: '4',
+    title: 'SEMRUSH',
+    images: {
+      url: '/assets/home/tools/img-04.png',
+      atl: 'SEMRUSH',
+    },
+  },
+  {
+    id: '5',
+    title: 'Google Ads',
+    images: {
+      url: '/assets/home/tools/img-05.png',
+      atl: 'Google Ads',
+    },
+  },
+  {
+    id: '6',
+    title: 'Figma',
+    images: {
+      url: '/assets/home/tools/img-06.png',
+      atl: 'Figma',
     },
   },
 ];

@@ -5,6 +5,7 @@ import Skill from './skill';
 import Works from './workDone';
 import Resume from './resume';
 import Contact from './contact';
+import { Tools } from './tools';
 
 export default function Home() {
   return (
@@ -15,6 +16,9 @@ export default function Home() {
       <section className='container-fluid   bg-no-repeat bg-sec2 bg-center'>
         <Ido />
         <Skill />
+      </section>
+      <section className='container-fluid   bg-no-repeat bg-sec2 bg-center'>
+        <Tools />
       </section>
       <section className='container-fluid '>
         <Works />

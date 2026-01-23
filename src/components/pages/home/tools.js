@@ -1,15 +1,15 @@
 import React from 'react';
-import { skillData } from '@constants/mocks/home';
+import { toolsData } from '@constants/mocks/home';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { containerVariants, childVariants } from '@constants/mocks/motion';
 
-export default function Skill() {
+export function Tools() {
   return (
     <main id='skills'>
       <div className='container-full py-[30px] md:py-[80px] border-b-[1px] border-[#555C61] space-y-[40px]'>
         <div className='flex justify-center'>
-          <h5 className='text-24px  underline underline-offset-8 decoration-coca '> Skills</h5>
+          <h5 className='text-24px  underline underline-offset-8 decoration-coca '>Tools I Use</h5>
         </div>
 
         <motion.div
@@ -19,7 +19,7 @@ export default function Skill() {
           whileInView='show'
           className=' grid md:grid-cols-3 grid-cols-2 md:gap-[12px] gap-[8px]'
         >
-          {skillData.map((load) => (
+          {toolsData.map((load) => (
             <motion.div
               variants={childVariants}
               key={load.id}
