@@ -6,5 +6,5 @@ Allow: /
 Host: https://ericravy.com
 
 # Sitemaps
-Sitemap: https://ericravy.com/sitemap.xml
-Sitemap: https://ericravy.com/sitemap-main.xml
+Sitemap: https://www.theanykouch.com/sitemap.xml
+Sitemap: https://www.theanykouch.com/sitemap-main.xml
