@@ -272,6 +272,22 @@ export const toolsData = [
       atl: 'Figma',
     },
   },
+  {
+    id: '7',
+    title: 'Google Ads',
+    images: {
+      url: '/assets/home/tools/img-07.png',
+      atl: 'Google Ads',
+    },
+  },
+  {
+    id: '8',
+    title: 'Figma',
+    images: {
+      url: '/assets/home/tools/img-08.png',
+      atl: 'Figma',
+    },
+  },
 ];
 
 export const skillData2 = [
@@ -343,21 +359,21 @@ export const skillData2 = [
 export const doData = [
   {
     id: '1',
-    title: 'Campaign Strategy',
+    title: 'Marketing Strategy',
     icon: 'plan',
-    dsp: 'Plan and execute integrated marketing campaigns aligned with business goals, timelines, and budgets.',
+    dsp: 'Develop and execute data-driven marketing strategies aligned with business goals, channels, and performance targets.',
   },
   {
     id: '2',
-    title: 'Paid Media Advertising',
+    title: 'Campaign Planning',
     icon: 'campaign',
-    dsp: 'Manage paid advertising across Facebook, TikTok, and other platforms, optimizing for reach, conversion, and ROAS.',
+    dsp: 'Plan and execute end-to-end campaigns, coordinating teams, timelines, and reporting to achieve measurable results.',
   },
   {
     id: '3',
-    icon: 'light',
-    title: 'Content Strategy',
-    dsp: 'Define content strategy, messaging, and creative direction to drive engagement and brand consistency.',
+    icon: 'app',
+    title: 'App / Web Project Lead',
+    dsp: 'Lead app and web projects by coordinating designers, developers, and stakeholders from planning to launch.',
   },
   {
     id: '4',
@@ -369,13 +385,13 @@ export const doData = [
     id: '5',
     title: 'E-commerce Marketing',
     icon: 'cart',
-    dsp: 'Lead e-commerce and app promotions, working closely with merchants to boost sales and user acquisition.',
+    dsp: 'Lead e-commerce and app promotions, collaborate with merchants to boost sales and user acquisition.',
   },
   {
     id: '6',
-    title: 'Cross-team Coordination',
-    icon: 'group',
-    dsp: 'Coordinate with designers, video editor, developers, KOLs, or merchants to deliver campaigns efficiently and on time.',
+    title: 'SEO / SEM Marketing',
+    icon: 'seo',
+    dsp: 'Manage SEO and SEM to Increase search visibility and high-intent traffic through keyword strategy, and content optimization.',
   },
 ];
 

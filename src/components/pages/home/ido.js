@@ -9,7 +9,7 @@ export default function Ido() {
     <main>
       <div className='container-full py-[30px] md:py-[80px] border-b-[1px] border-[#555C61] space-y-[40px]'>
         <div className='flex justify-center'>
-          <h5 className='text-24px  underline underline-offset-8 decoration-coca '> What I Do</h5>
+          <h5 className='text-24px  underline underline-offset-8 decoration-coca '> My Skill</h5>
         </div>
         <motion.div
           variants={containerVariants}

@@ -16,7 +16,7 @@ export default function Banner() {
                 theany <span className=' text-coca text-45px font-extrabold'>kouch</span>
               </h5>
               <p className='text-20px '>D. Marketing Manager & Project Manager</p>
-              <p className='text-16px lg:pr-[50px] text-justify text-paragraph'>
+              <p className='text-16px lg:pr-[50px] text-justify text-heading'>
                 Digital Marketing Manager with 5+ years of experience in e-commerce and tech,
                 skilled in Facebook Ads, TikTok, Instagram, content creation, SEO, and integrated
                 campaigns. Experienced in end-to-end website projects, livestream/KOL promotions,

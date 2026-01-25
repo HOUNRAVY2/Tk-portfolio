@@ -17,25 +17,24 @@ export function Tools() {
           initial='hidden'
           viewport={{ once: true }}
           whileInView='show'
-          className=' grid md:grid-cols-3 grid-cols-2 md:gap-[12px] gap-[8px]'
+          className=' grid md:grid-cols-4 grid-cols-2 md:gap-[12px] gap-[8px]'
         >
           {toolsData.map((load) => (
             <motion.div
               variants={childVariants}
               key={load.id}
-              className='bg-EA rounded-lg space-y-[10px] flex flex-col justify-center py-[30px]  items-center'
+              className='bg-EA rounded-lg space-y-[10px] flex justify-center py-[30px]  items-center'
             >
-              <div className=' relative w-[140px] h-[120px]'>
+              <div className='relative  '>
                 <Image
                   src={load.images.url}
                   alt={load.images.atl}
-                  width={200}
-                  height={180}
+                  width={120}
+                  height={100}
                   draggable={false}
-                  className=' object-contain'
+                  className=' object-contain shrink-0 w-[120px] h-[100px]'
                 />
               </div>
-              <p className='md:text-20px text-18px'>{load.title}</p>
             </motion.div>
           ))}
         </motion.div>

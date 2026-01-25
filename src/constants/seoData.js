@@ -12,11 +12,11 @@ export const faqDefault = [
 export const seoDefualt = {
   linkTo: '/',
   seo: {
-    title: 'Digital Marketing Manager Portfolio | Theany Kouch ',
+    title: 'Marketing Manager Portfolio | Theany Kouch',
     description:
-      'Results-driven Digital Marketing Manager with 5+ years experiences in paid ads, campaign strategy, e-commerce, and app marketing with cross-functional leadership experience. ',
+      'Marketing Manager with 5+ years of experience in tech, e-commerce, and blockchain platforms, specializing in digital campaigns, growth strategy, and cross-team execution.',
     keywords:
-      'Digital Marketing Manager Digital Marketing Portfolio Digital Marketing Manager Portfolio Social Media Manager Portfolio Theany Kouch Kouch Theany E-Commerce marketing',
+      'Theany Kouch Theany Kouch Portfolio Marketing Manager Marketing Manager Cambodia Digital Marketing Manager Cambodia',
     images: [
       {
         url: '/assets/home/tk-frame.png', // Replace with the actual URL of your image
