@@ -11,7 +11,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         footer: 'url(/assets/home/footer.png)',
-        banner: 'url(/assets/home/bg-01.webp)',
+        banner: 'url(/assets/home/bg-banner.png)',
         sec2: 'url(/assets/home/bg-02.webp)',
         sec3: 'url(/assets/home/bg-03.webp)',
       },

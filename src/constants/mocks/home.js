@@ -290,12 +290,12 @@ export const toolsData = [
   },
 ];
 
-export const skillData2 = [
+export const tools2Data = [
   {
     id: '1',
     title: 'VUEJS',
     images: {
-      url: '/assets/home/skill/vue.png',
+      url: '/assets/home/tools-02/img-01.png',
       atl: 'vue',
     },
   },
@@ -303,7 +303,7 @@ export const skillData2 = [
     id: '2',
     title: 'NUXTJS',
     images: {
-      url: '/assets/home/skill/nuxt.png',
+      url: '/assets/home/tools-02/img-02.png',
       atl: 'laravel',
     },
   },
@@ -311,7 +311,7 @@ export const skillData2 = [
     id: '3',
     title: 'PHP',
     images: {
-      url: '/assets/home/skill/php.png',
+      url: '/assets/home/tools-02/img-03.png',
       atl: 'php',
     },
   },
@@ -319,7 +319,7 @@ export const skillData2 = [
     id: '4',
     title: 'LARAVEL',
     images: {
-      url: '/assets/home/skill/larvel.png',
+      url: '/assets/home/tools-02/img-04.png',
       atl: 'LARAVEL',
     },
   },
@@ -327,32 +327,8 @@ export const skillData2 = [
     id: '5',
     title: 'MYSQL',
     images: {
-      url: '/assets/home/skill/mysql.png',
+      url: '/assets/home/tools-02/img-05.png',
       atl: 'mysql',
-    },
-  },
-  {
-    id: '6',
-    title: 'MOTION',
-    images: {
-      url: '/assets/home/skill/framer.png',
-      atl: 'react',
-    },
-  },
-  {
-    id: '7',
-    title: 'GIT',
-    images: {
-      url: '/assets/home/skill/git.svg',
-      atl: 'react',
-    },
-  },
-  {
-    id: '8',
-    title: 'WORDPRESS',
-    images: {
-      url: '/assets/home/skill/wordpress.png',
-      atl: 'react',
     },
   },
 ];
@@ -398,15 +374,15 @@ export const doData = [
 export const jobExperience = [
   {
     id: '1',
-    title: 'Project Manager',
+    title: 'Marketing & Project Manager',
     at: 'VTECH  (2022-2025)',
-    dsp: 'Led end-to-end website and app projects across fintech, e-commerce, including payment platforms, shopping apps, and crypto/gold miner websites. Coordinated design, development, testing, and payment integrations, ensuring usability, conversion, and on-time delivery.',
+    dsp: 'Led end-to-end website and app projects across fintech, e-commerce, and blockchain, including payment platforms, shopping apps, and crypto/gold miner websites. Coordinated design, development, testing, and payment integrations, ensuring usability, conversion, and on-time delivery. Planned and executed post-launch marketing strategies, including campaign rollouts, traffic acquisition, and performance optimization to support adoption and growth.',
   },
   {
     id: '2',
     title: 'Digital Marketing Manager',
     at: 'La Rue E-Commerce (2022-2025)',
-    dsp: 'Led e-commerce campaigns, coordinating paid KOL livestreams and boosting promotions across Facebook, TikTok, Instagram, and Telegram. Collaborated with merchants, designers, and developers on campaign execution, and delivered post-campaign performance reports.',
+    dsp: 'Plan and execute e-commerce campaigns, coordinating paid KOL livestreams and boosting promotions across Facebook, TikTok, Instagram, and Telegram. Collaborated with merchants, designers, and developers on campaign execution, and delivered post-campaign performance reports.',
   },
   {
     id: '3',

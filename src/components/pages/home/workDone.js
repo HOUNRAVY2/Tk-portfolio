@@ -20,7 +20,7 @@ export default function Works() {
           initial='hidden'
           viewport={{ once: true }}
           whileInView='show'
-          className=' grid md:grid-cols-3 grid-cols-1 gap-[10px]'
+          className=' grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-[10px]'
         >
           {websiteData.map((load) => (
             <Link href={load.url} key={load.id} target='_blank'>

@@ -15,15 +15,16 @@ export default function Banner() {
               <h5 className='text-45px font-extrabold text-heading uppercase'>
                 theany <span className=' text-coca text-45px font-extrabold'>kouch</span>
               </h5>
-              <p className='text-20px '>D. Marketing Manager & Project Manager</p>
+              <p className='text-20px '>Marketing & Project Manager</p>
               <p className='text-16px lg:pr-[50px] text-justify text-heading'>
-                Digital Marketing Manager with 5+ years of experience in e-commerce and tech,
-                skilled in Facebook Ads, TikTok, Instagram, content creation, SEO, and integrated
-                campaigns. Experienced in end-to-end website projects, livestream/KOL promotions,
-                and collaborating with designers, developers, and merchants. Currently pursuing
-                advanced Chinese language and e-commerce studies to enhance skills and drive
-                personal and professional growth. Passionate about learning, adaptability, and
-                delivering measurable results.
+                Marketing & Project Manager with 5+ years of experience leading marketing strategy
+                and execution across tech and digital platforms. Strong in digital marketing, paid
+                media, e-commerce, and app launches, with proven ability to plan campaigns, manage
+                complex projects, and align cross-functional teams to deliver measurable results.
+                Recently managed marketing and project execution for a blockchain-based payment
+                platform and multiple e-commerce app and web projects, collaborating closely with
+                designers, developers, and stakeholders to drive adoption, performance, and scalable
+                growth.
               </p>
               <div className=' space-y-[10px] pt-[40px]'>
                 <p className='text-18px md:text-start text-center'>FIND ME ON:</p>
@@ -41,7 +42,7 @@ export default function Banner() {
           </div>
 
           <div className=' flex justify-center lg:order-last order-first'>
-            <div className='aspect-[6.3/6.8]  relative md:w-[320px] w-[300px] lg:w-[500px] '>
+            <div className='aspect-[6.3/6.8]  relative md:w-[320px] w-[300px] 2xl:w-[500px] lg:w-[460px] '>
               <Image
                 src='/assets/home/me.webp'
                 alt='person'

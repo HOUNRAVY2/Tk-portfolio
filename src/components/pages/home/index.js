@@ -10,7 +10,7 @@ import { Tools } from './tools';
 export default function Home() {
   return (
     <main className=' text-heading'>
-      <section className='container-fluid bg-banner bg-right-top'>
+      <section className='container-fluid bg-banner '>
         <Banner />
       </section>
       <section className='container-fluid   bg-no-repeat bg-sec2 bg-center'>

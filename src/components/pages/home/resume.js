@@ -27,7 +27,7 @@ export default function Resume() {
                 <motion.div
                   variants={childVariants}
                   key={job.id}
-                  className='space-y-[20px] bg-EA px-[25px] py-[15px] 2xl:h-[200px] xl:h-[230px] lg:h-[240px] rounded-md'
+                  className='space-y-[20px] bg-EA px-[25px] py-[15px] 2xl:h-[270px] lg:h-[290px] rounded-md'
                 >
                   <div className=' space-y-[5px]'>
                     <p className='text-20px'>{job.title}</p>
@@ -81,7 +81,7 @@ export default function Resume() {
                 <motion.div
                   variants={childVariants}
                   key={job.id}
-                  className=' space-y-[20px] bg-EA px-[25px] py-[15px] 2xl:h-[200px] xl:h-[230px] lg:h-[240px] rounded-md'
+                  className=' space-y-[20px] bg-EA px-[25px] py-[15px] 2xl:h-[270px] lg:h-[290px] rounded-md'
                 >
                   <div className=' space-y-[5px]'>
                     <p className='text-20px'>{job.title}</p>

@@ -1,8 +1,7 @@
 import React from 'react';
-import { toolsData } from '@constants/mocks/home';
+import { toolsData, tools2Data } from '@constants/mocks/home';
 import Image from 'next/image';
-import { motion } from 'framer-motion';
-import { containerVariants, childVariants } from '@constants/mocks/motion';
+import Marquee from 'react-fast-marquee';
 
 export function Tools() {
   return (
@@ -11,33 +10,42 @@ export function Tools() {
         <div className='flex justify-center'>
           <h5 className='text-24px  underline underline-offset-8 decoration-coca '>Tools I Use</h5>
         </div>
-
-        <motion.div
-          variants={containerVariants}
-          initial='hidden'
-          viewport={{ once: true }}
-          whileInView='show'
-          className=' grid md:grid-cols-4 grid-cols-2 md:gap-[12px] gap-[8px]'
-        >
-          {toolsData.map((load) => (
-            <motion.div
-              variants={childVariants}
-              key={load.id}
-              className='bg-EA rounded-lg space-y-[10px] flex justify-center py-[30px]  items-center'
-            >
-              <div className='relative  '>
+        <Marquee pauseOnClick direction='left' speed={40}>
+          <div className='flex justify-center items-center mx-[5px] gap-x-[10px]'>
+            {toolsData.map((load) => (
+              <div
+                key={load.id}
+                className='bg-EA md:p-[50px] p-[30px] rounded-md space-y-[10px] flex flex-col justify-center md:h-[200px] h-[110px] md:w-[200px] w-[110px] items-center'
+              >
                 <Image
                   src={load.images.url}
                   alt={load.images.atl}
                   width={120}
-                  height={100}
-                  draggable={false}
-                  className=' object-contain shrink-0 w-[120px] h-[100px]'
+                  height={120}
+                  className='w-[110px] h-[110px] object-contain'
                 />
               </div>
-            </motion.div>
-          ))}
-        </motion.div>
+            ))}
+          </div>
+        </Marquee>
+        <Marquee pauseOnClick direction='right' speed={40}>
+          <div className='flex justify-center items-center mx-[5px] gap-x-[10px]'>
+            {tools2Data.map((load) => (
+              <div
+                key={load.id}
+                className='bg-EA md:p-[50px] p-[30px] rounded-md space-y-[10px] flex flex-col justify-center md:h-[200px] h-[110px] md:w-[200px] w-[110px] items-center'
+              >
+                <Image
+                  src={load.images.url}
+                  alt={load.images.atl}
+                  width={120}
+                  height={120}
+                  className='w-[100px] h-[100px] object-contain'
+                />
+              </div>
+            ))}
+          </div>
+        </Marquee>
       </div>
     </main>
   );
