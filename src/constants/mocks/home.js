@@ -399,7 +399,9 @@ export const educationQuality = [
     at: 'Cambodia-China University of Technology and Science (2023-Present)',
     dsp: [
       'Participated exchange program at Nanjing University of Technology, China',
-      'Completed practical training in graphic design, Facebook & TikTok marketing, short video marketing, marketing materials, livestreams, warehouse inspection, and payment ',
+      'Completed practical training in graphic design, Facebook & TikTok marketing, short video marketing, marketing materials, livestreams, inspection logistic operations, china suppliers, and payment gateway/e-commerce & tech operations ',
+      'Studied Chinese language and history',
+      ' Received certificate for program completion',
     ],
   },
   {
