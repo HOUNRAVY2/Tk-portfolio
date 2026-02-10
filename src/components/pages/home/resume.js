@@ -12,7 +12,7 @@ export default function Resume() {
           <h5 className='text-24px  underline underline-offset-8 decoration-coca '> My Resume</h5>
         </div>
         <div className=' grid lg:grid-cols-2 grid-cols-1 gap-[30px]'>
-          <div className=' space-y-[40px]'>
+          <div className=' space-y-[12px]'>
             <div>
               <p className=' text-20px font-bold'>Job Experience</p>
               <span className='text-coca text-14px'>2021 - 2025</span>
@@ -123,7 +123,7 @@ export default function Resume() {
               </div>
             )}
           </div>
-          <div className=' space-y-[40px]'>
+          <div className=' space-y-[12px]'>
             <div>
               <p className=' text-20px font-bold'>Education Quality</p>
               <span className='text-coca text-14px'>2010 - 2026</span>
