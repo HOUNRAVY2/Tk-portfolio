@@ -386,8 +386,8 @@ export const jobExperience = [
   },
   {
     id: '3',
-    title: 'Digital Marketing Executive',
-    at: 'SORYA, RATANA PLAZA, Olympia Mall  (2021-2022)',
+    title: 'Digital Marketing | Canadia Group Shopping Malls',
+    at: 'SORYA Center Point, Ratana Plaza, Olympia Mall (2021-2022)',
     dsp: 'Managed digital marketing for 3 shopping malls under structured SOP systems, creating social media campaigns, running paid ads, and coordinating KOL promotions. Partnered with Canadia Bank for events, collaborated with designers, supported offline marketing, and prepared post-campaign reports.',
   },
 ];

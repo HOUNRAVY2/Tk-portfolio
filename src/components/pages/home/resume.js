@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { jobExperience, educationQuality } from '@constants/mocks/home';
 import { motion } from 'framer-motion';
 import { containerVariants, childVariants } from '@constants/mocks/motion';
@@ -48,46 +49,25 @@ export default function Resume() {
                   className=' space-y-[30px]'
                 >
                   <div>
-                    <div className='space-y-[20px] bg-EA px-[25px] py-[15px]  xl:h-[560px] lg:h-[550px] rounded-md'>
+                    <div className='space-y-[20px] bg-EA px-[25px] py-[15px]  2xl:h-[270px] lg:h-[290px] rounded-md'>
                       <div className=' space-y-[5px]'>
-                        <p className='text-20px'>Founder & Social Media Manager</p>
+                        <p className='text-20px'>Founder | Blogger | Freelancer</p>
                         <span className='text-14px text-coca'>
-                          Perfect Solution Social Media Agency (2020-Present)
+                          Social Media Agency (2019-present)
                         </span>
                       </div>
                       <ul className=' list-disc'>
                         <li className='text-16px text-justify text-paragraph'>
-                          Providing digital marketing service including: content strategy, digital
-                          marketing materials set up (Ad account & maintenance support), design
-                          artwork, and performance campaigns for startups and local online stores.
+                          Provide digital marketing services, ad account setup/management, or
+                          creative artworks. With proven clients: Delivery app, real estate
+                          platform, e-commerce farm, startup, or local online stores.
                         </li>
                         <li className='text-16px text-justify text-paragraph'>
-                          <b>Itel Mobile</b> – Campaign support including KOL livestreams,
-                          giveaways, and Mobile Legends competitions.
-                        </li>
-                        <li className='text-16px text-justify text-paragraph'>
-                          <b>Fastex Delivery App</b> – Social media management, content creation,
-                          and social media artwork design.
-                        </li>
-                        <li className='text-16px text-justify text-paragraph'>
-                          <b>Tela</b> – Freelance Assistant Producer (Tipsa Agency) for TVC
-                          production, coordinating KOLs, managing materials and purchasing or
-                          payment processing.
-                        </li>
-                        <li className='text-16px text-justify text-paragraph'>
-                          <b>EstateBook</b> – Real estate app platform; set up and launched Facebook
-                          page and built initial follower base.
-                        </li>
-                        <li className='text-16px text-justify text-paragraph'>
-                          <b>KOLs on Panda Shopping</b> – Short-form video content creation and
-                          audience engagement strategy.
-                        </li>
-                        <li className='text-16px text-justify text-paragraph'>
-                          <b>Local Online Shops</b> – Digital marketing training, ad account setup,
-                          and ongoing performance optimization support.
-                        </li>
-                        <li className='text-16px text-justify text-paragraph'>
-                          <b>Sanura Farm</b> – Ad account setup & maintenance
+                          Operate own travel blog{' '}
+                          <Link target='_blank' href='https://www.facebook.com/TheanyIsMe'>
+                            <span className=' text-16px text-blue-600 font-bold'>TK</span>
+                          </Link>{' '}
+                          to develop personal content and digital marketing skills.
                         </li>
                       </ul>
                     </div>
@@ -104,7 +84,7 @@ export default function Resume() {
                     <p className=' text-20px font-bold'>Professional Courses & Training</p>
                   </div>
                   <div>
-                    <div className='space-y-[20px] bg-EA px-[25px] py-[15px] 2xl:h-[200px] xl:h-[230px] lg:h-[240px] rounded-md'>
+                    <div className='space-y-[20px] bg-EA px-[25px] py-[15px] 2xl:h-[270px] lg:h-[290px]  rounded-md'>
                       <div className=' space-y-[5px]'>
                         <p className='text-20px'>Digital Marketing</p>
                         <span className='text-14px text-coca'>(2017-2021)</span>
@@ -167,7 +147,7 @@ export default function Resume() {
                   className=' space-y-[30px]'
                 >
                   <div>
-                    <div className='space-y-[20px] bg-EA px-[25px] py-[15px] xl:h-[560px] lg:h-[550px]  rounded-md'>
+                    <div className='space-y-[20px] bg-EA px-[25px] py-[15px] 2xl:h-[270px] lg:h-[290px] rounded-md'>
                       <div className=' space-y-[5px]'>
                         <p className='text-20px'>Completed Computer Program</p>
                         <span className='text-14px text-coca'>
@@ -193,7 +173,7 @@ export default function Resume() {
                     <p className=' text-20px font-bold'>Award</p>
                   </div>
                   <div>
-                    <div className='space-y-[20px] bg-EA px-[25px] py-[15px] 2xl:h-[200px] xl:h-[230px] lg:h-[240px] rounded-md'>
+                    <div className='space-y-[20px] bg-EA px-[25px] py-[15px] 2xl:h-[270px] lg:h-[290px] rounded-md'>
                       <div className=' space-y-[5px]'>
                         <p className='text-20px'>Outstanding Woman Award – Private Sector</p>
                         <span className='text-14px text-coca'>(2016)</span>
